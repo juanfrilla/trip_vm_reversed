@@ -47,7 +47,7 @@ class TripClient:
             },
             "destination": {
                 "type": 1,
-                "geo": {"cityId": 1766, "countryId": 95},
+                "geo": {"cityId": int(self.city_id), "countryId": int(self.country_id)},
                 "keyword": {"word": self.city_name},
             },
             "extraFilter": {
