@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository documents the reverse engineering of the **Trip.com Phantom-Token** generation logic. By analyzing the underlying Stack-Based Virtual Machine (JSVMP), I managed to reconstruct the cryptographic and fingerprinting logic to run natively in a standalone environment, completely bypassing the need for a browser or a heavy automation framework.
+This repository documents the reverse engineering of the **Trip.com Phantom-Token** generation logic. By analyzing the underlying Stack-Based Virtual Machine (JSVMP), I managed to reconstruct the cryptographic and fingerprinting logic to run natively, avoiding the need of using a browser.
 
 ---
 
