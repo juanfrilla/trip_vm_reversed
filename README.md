@@ -35,7 +35,7 @@ This repository documents the reverse engineering of the **Trip.com Phantom-Toke
 node ./js/vm_logged.js > out.txt
 ```
 
-### 2. Python — Run the Token Server
+### 2. Python — See this logic running
 
 ```bash
 uv venv venv
