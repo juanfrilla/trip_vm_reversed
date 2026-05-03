@@ -19,7 +19,7 @@ This repository documents the reverse engineering of the **Trip.com Phantom-Toke
    that intercepts property accesses returning `undefined` as they are requested by the VM
    (see the `watch` method in `./js/vm_logged.js`), until the full token generation flow
    completed successfully.
-2. **High-Level Hooking:** Instrumented the VM's main dispatcher to log inputs and outputs of critical handlers:
+2. **High-Level Hooking:** Instrumented the VM's main dispatcher to log inputs and outputs of critical handlers, the closest to the JavaScript runtime:
    - `func_call` & `new` (Object instantiation and API calls)
    - Bitwise & Arithmetic operations
    - String manipulation logic
