@@ -52,3 +52,6 @@ python main.py
 | Language   | JavaScript (Node.js)                                              |
 | Techniques | Hooking, Sandboxing, Taint Analysis, Cryptographic Identification |
 | Target     | Stack-Based JSVMP                                                 |
+
+
+> **Disclaimer:** This project is for educational and research purposes only. Use of this tool must comply with the target website's Terms of Service and applicable data privacy laws.
