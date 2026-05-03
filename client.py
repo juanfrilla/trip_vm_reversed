@@ -116,9 +116,9 @@ class TripClient:
         burp0_headers = {
             "Accept-Language": "es-ES,es;q=0.9",
             "Upgrade-Insecure-Requests": "1",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "User-Agent": self.user_agent,
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-            "Sec-Ch-Ua": '"Not-A.Brand";v="24", "Chromium";v="146"',
+            "Sec-Ch-Ua": f'"Not-A.Brand";v="24", "Chromium";v="{self.browser_version}"',
             "Sec-Ch-Ua-Mobile": "?0",
             "Sec-Ch-Ua-Platform": '"Windows"',
             "Sec-Fetch-Site": "none",
@@ -138,7 +138,7 @@ class TripClient:
         burp0_headers = {
             "Sec-Ch-Ua-Platform": '"Windows"',
             "X-Ctx-User-Recognize": "IS_EU",
-            "Sec-Ch-Ua": '"Not-A.Brand";v="24", "Chromium";v="146"',
+            "Sec-Ch-Ua": f'"Not-A.Brand";v="24", "Chromium";v="{self.browser_version}"',
             "Sec-Ch-Ua-Mobile": "?0",
             "X-Ctx-Locale": "es-ES",
             "X-Ctx-Currency": "EUR",
@@ -157,7 +157,7 @@ class TripClient:
             # "W-Payload-Source": "1.0.9@102!KZOWquglOaTbKrb5K2KZ9PtSOPqnGrNH+XKI+XKpGSAS+6t2+XKnOlbbOrK2+ET5+rApbbbpOSTZOSAZOEAnKEVpbEAbKtb5+rbSOEA5KE4pKSb5OlTS+r4pK5bpOSTZOSAZKS4LOStnQljdG29dr1h4NZaF9bb=",
             "X-Ctx-Ubt-Pageid": "10320668148",  # TODO dynamic
             "Cookieorigin": "https://es.trip.com",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "User-Agent": self.user_agent,
             "Origin": "https://es.trip.com",
             "Sec-Fetch-Site": "same-origin",
             "Sec-Fetch-Mode": "cors",
