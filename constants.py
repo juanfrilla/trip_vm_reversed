@@ -1,0 +1,8 @@
+BROWSER_VERSION = "146"
+SEPARATORS = "eIrWRYiEJwyjvxK"
+LITTLE_STRING = "ZXJyb3I"
+CONSTANT_STRING = "S9mHXtfaMsZ6DNkgTnL5F0dzpb1lPAocQ8BGh47UqO3"
+HOSTNAME = "trip.com"
+# URL_ORIGINAL = "https://es.trip.com/hotels/list?city=1766&cityName=Lanzarote&provinceId=10127&countryId=95&districtId=0&checkin=2026%2F05%2F02&checkout=2026%2F05%2F03&barCurr=EUR&searchType=CT&searchWord=Lanzarote&searchValue=19%7C1766*19*1766*1&searchCoordinate=BAIDU_-1_-1_0%7CGAODE_-1_-1_0%7CGOOGLE_-1_-1_0%7CNORMAL_29.0468535_-13.5899733_0&crn=1&adult=2&children=0&searchBoxArg=t&travelPurpose=0&ctm_ref=ix_sb_dl&domestic=false&listFilters=29%7C1*29*1%7C2*2&locale=es-ES&curr=EUR"
+USER_AGENT = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{BROWSER_VERSION}.0.0.0 Safari/537.36"
+JS_SAFE_CHARS = "-_.!~*'()"
