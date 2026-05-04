@@ -35,7 +35,7 @@ This repository documents the reverse engineering of the **Trip.com Phantom-Toke
 node ./js/vm_logged.js > out.txt
 ```
 
-### 2. Python — See this logic running
+### 2. Python — Trip scraper
 
 ```bash
 uv venv venv
